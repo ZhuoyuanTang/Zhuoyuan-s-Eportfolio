@@ -1,0 +1,29 @@
+table {
+    width: 100%; /* Makes the table expand to full width */
+    border-collapse: collapse; /* Ensures borders merge properly */
+    margin: 20px 0; /* Adds spacing around the table */
+    display: block;
+    overflow-x: auto;
+}
+th, td {
+    border: 1px solid black; /* Adds a border around table cells */
+    padding: 10px; /* Adds space inside each cell */
+    text-align: center; /* Aligns text to the left */
+}
+th {
+    background-color: #0073e6; /* Blue header background */
+    color: white; /* White text for contrast */
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternating row colors for readability */
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+tabset .nav-tabs {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 5px;
+}
